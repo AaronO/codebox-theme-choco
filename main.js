@@ -16,8 +16,8 @@ define([
     var colorLight = "#dadfe6";
 
     themes.add({
-        id: "monokai",
-        title: "Monokai",
+        id: "chocobox",
+        title: "Chocobox",
 
         editor: {
             'theme': aceTheme
