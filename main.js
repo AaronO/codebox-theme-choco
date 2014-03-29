@@ -4,16 +4,16 @@ define([
     var themes = codebox.require("core/themes");
 
     var bgDarker = "#202020";
-    var colorDarker = "#F8F8F2";
+    var colorDarker = "#888";
 
     var bgDark = "#282828";
-    var colorDark = "#F8F8F2";
+    var colorDark = "#aaa";
 
     var bgNormal = "#333333";
-    var colorNormal = "#eee";
+    var colorNormal = "#ccc";
 
-    var bgLight = "#2b303b";
-    var colorLight = "#dadfe6";
+    var bgLight = "#202020";
+    var colorLight = "#eee";
 
     themes.add({
         id: "chocobox",
@@ -26,11 +26,11 @@ define([
             // Top menubar
             menubar: {
                 'background': bgDarker,
-                'color': colorDark,
+                'color': colorDarker,
                 'border-color': "#111",
 
                 button: {
-                    'border-color': bgNormal
+                    'border-color': bgDarker
                 }
             },
 
