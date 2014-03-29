@@ -1,0 +1,17 @@
+{
+    "name": "codebox-theme-choco",
+    "version": "0.0.1",
+    "title": "Codebox Monokai Theme",
+    "description": "Monokai & Chocolate inspired Codebox theme",
+    "homepage": "https://github.com/AaronO/codebox-theme-choco",
+    "author": {
+        "name": "Aaron O'Mullan",
+        "email": "aaron.omullan@friendco.de"
+    },
+    "client": {
+        "main": "main"
+    },
+    "engines": {
+        "codebox": ">=0.7.0"
+    }
+}
